@@ -1,8 +1,9 @@
 alias ll="ls -la"
 
+export PATH=$PATH:/opt/homebrew/bin
 
 #export JAVA_HOME=$(/usr/libexec/java_home)
-#export PATH="$PATH:$HOME/binaries:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="$PATH:$HOME/binaries:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
